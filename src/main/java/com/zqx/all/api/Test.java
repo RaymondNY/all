@@ -9,4 +9,8 @@ import javax.annotation.Resource;
 public class Test {
     @Resource
     private ElasticTools elasticTools;
+
+    public void p(){
+        System.out.println("");
+    }
 }
